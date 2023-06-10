@@ -1,45 +1,57 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Inter', sans-serif;
 }
-a{
+
+hr {
+    margin-left: -100vw;
+    width: 200vw;
+}
+
+a {
     text-decoration: none;
     color: inherit;
     font-size: 15px;
     line-height: 24px;
 }
-.header{
-    background-image: url();
-    min-height: 909px;
+
+.header {
+    min-height: 934px;
+    background-image: url('../images/header-bg.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
+    background-position: right bottom;
 }
-.container{
+
+.container {
     max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 344px;
-    padding-right: 344px;
+    padding-left: 17.92%;
+    padding-right: 17.92%;
 }
-.container-header{
+
+.container-header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .header-top {
     min-height: 100px;
     padding: 32px 0 19px;
     display: flex;
     justify-content: space-between;
 }
+
 .logo {
     display: flex;
     height: 38px;
 }
-.logo h3{
+
+.logo h3 {
     width: 217px;
     height: 44px;
     margin-left: 11px;
@@ -50,14 +62,19 @@ a{
     line-height: 22px;
     color: #000000;
 }
-.logo a{
-    height: 44px;
+
+.logo a {
+    height: 100%;
 }
+
+.logo a img {
+    height: 100%;
+    width: 100%;
+}
+
 .header-btn {
-    width: 246px;
-    height: 48px;
-    left: 968px;
-    top: 32px;
+    min-width: 246px;
+    min-height: 48px;
     background: #2D72CD;
     font-family: 'Inter';
     font-style: normal;
@@ -68,6 +85,7 @@ a{
     color: #FFFFFF;
     padding: 14.5px 15px;
 }
+
 .header-phone {
     width: 238px;
     height: 40px;
@@ -75,6 +93,7 @@ a{
     flex-direction: column;
     justify-content: space-between;
 }
+
 .number {
     width: 222px;
     margin-left: 14px;
@@ -85,17 +104,20 @@ a{
     line-height: 27px;
     color: #000000;
 }
-.header-phone__call a{
+
+.header-phone__call a {
     width: 234px;
     height: 19px;
     display: flex;
     justify-content: space-between;
 }
-.header-phone__call{
+
+.header-phone__call {
     margin-right: 4px;
 }
-.header-phone__call-icon {
-}
+
+
+
 .header-phone__call-text {
     width: 210px;
     font-family: 'Inter';
@@ -105,4 +127,556 @@ a{
     line-height: 19px;
     color: #5284F7;
     border-bottom: #5284F7 dotted 1px;
+}
+
+.header-main {
+    min-height: 834px;
+    padding-top: 169px;
+    position: relative;
+}
+
+.header-main__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header-title {
+    max-width: 634px;
+    margin-bottom: 3.4%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 56px;
+    color: #213252;
+}
+
+.header-text {
+    max-width: 504px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #213252;
+    margin-bottom: 5.8%;
+}
+
+.header-btn_main {
+    padding: 12.5px 83.5px;
+    max-width: 400px;
+    line-height: 22px;
+    margin-bottom: 3%;
+}
+
+.header-btnPrice {
+    width: 296px;
+    height: 98px;
+    padding: 6px 7px;
+    background: #E28519;
+    border-radius: 8px;
+    margin-left: 84.5%;
+}
+
+.btnPrice-inner {
+    width: 284px;
+    height: 84px;
+    background: #E28519;
+    border: 1px dashed #FFFFFF;
+    border-radius: 8px;
+    padding: 18px 13px 17px 18px;
+    display: flex;
+}
+
+
+.btnPrice-text {
+    width: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 19px;
+}
+
+.header-main__img {
+    position: absolute;
+    z-index: -1;
+    left: 42%;
+    top: 2%;
+}
+
+.price {
+    min-height: 123px;
+    padding-top: 106px;
+    padding-bottom: 127px;
+}
+
+.container-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price-title {
+    max-width: 688px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    color: #213252;
+    margin-bottom: 0.85%;
+}
+
+.price-text {
+    width: 830px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #213252;
+    margin-bottom: 4.55%;
+}
+
+.price-subtitle {
+    width: 827px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #213252;
+    margin-bottom: 2.74%;
+}
+
+.price-content {
+    min-height: 725px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #AEB6BB;
+}
+
+.price-content__top {
+    min-height: 134px;
+    display: flex;
+    border: 1px solid #AEB6BB;
+}
+
+.price-content__top-item {
+    width: 205px;
+    height: 134px;
+    padding-top: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #AEB6BB;
+}
+
+.price-content__top-item_close {
+    display: flex;
+}
+
+.price-content__top-icon {
+    margin-bottom: 18px;
+}
+
+.price-content__top-text {
+    text-align: center;
+}
+
+.price-content__main {
+    min-height: 591px;
+    display: flex;
+    border: 1px solid #AEB6BB;
+}
+
+.price-content__main_close {
+    display: none;
+}
+
+.price-content__main-img {
+    border: 1px solid #AEB6BB;
+}
+
+.price-content__main-info {
+    min-height: 295px;
+    padding-top: 108px;
+    padding-bottom: 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5.15%;
+}
+
+.price-content__main-list {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: #213252;
+}
+
+.price-content__main-list li:nth-child(1) {
+    margin-top: 7px;
+}
+
+.price-content__main-list li {
+    margin-left: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #213252;
+}
+
+.price-content__main-list_prof {
+    max-height: 215px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.price-content__main-list_prof li:nth-child(6) {
+    margin-top: 54px;
+}
+
+.price-content__main-list_prof li {
+    margin-right: 19.5%;
+}
+
+.price-content__main-info_met {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 176px;
+    padding-top: 3.7%;
+}
+
+.price-content__main-info_prof {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header-btn_price {
+    width: 246px;
+    padding: 14.5px 52px;
+    height: 48px;
+}
+
+.header-btn_price_main5 {
+    margin-top: 9.7%;
+}
+
+@media (max-width: 1655px) {
+    .price-content__main-list_prof {
+        max-height: 590px;
+    }
+
+    .header-btn_price-prof {
+        margin-top: 0;
+    }
+
+    .price-content__main-list_prof li:nth-child(6) {
+        margin-top: 54px;
+    }
+
+    .price-content__main-list_prof li {
+        margin-right: 19.5%;
+    }
+}
+
+@media (max-width: 1450px) {
+    .price-content__main {
+        flex-direction: column;
+    }
+
+    .price-content__main-info {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+}
+
+@media (max-width: 1410px) {
+    .header-top {
+        flex-wrap: wrap;
+    }
+
+    .logo a {
+        height: 44px;
+    }
+
+    .header-btn {
+        order: 1;
+        margin-top: 2.15%;
+    }
+
+
+}
+
+@media (max-width: 1074px) {
+
+    .logo h3 {
+        margin-left: 19px;
+    }
+
+
+    .header-btn {
+        order: 0;
+        margin-top: 2.15%;
+    }
+
+    .header-phone {
+        margin-top: 16px;
+        margin-left: 21px;
+    }
+
+}
+
+@media (max-width: 974px) {
+    .price-content__main-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .price-title {
+        width: 270px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .price-text {
+        width: 270px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .price-subtitle {
+        width: 270px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .price-content__top-item_close {
+        display: none;
+    }
+
+    .price-content__top-item_1 {
+        display: flex;
+    }
+
+    .price-content__top {
+        width: 289.8px;
+        min-height: 38px;
+        position: relative;
+    }
+    .price-content__top::after {
+        position: absolute;
+        left: 96%;
+        top: 50%;
+        content: '';
+        width: 7px;
+        height: 4px;
+        background-image: url('../images/arroyDown.svg');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+
+
+    .price-content__top-item {
+        flex-direction: row;
+        width: 272px;
+        height: 38px;
+        padding: 0;
+        border: none;
+    }
+
+    .price-content__top-icon {
+        margin: 0;
+        
+    }
+    .price-content__top-icon img{
+        margin-left: 10px;
+        height: 19.368px;
+        width: 23px;
+    }
+    .price-content__top-text{
+        margin-left: 10px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .price-content{
+        justify-content: start;
+    }
+    .price{
+        padding-top: 0;
+    }
+
+
+}
+
+@media (max-width: 787px) {
+    .header {
+        background-size: contain;
+    }
+
+    .header-btnPrice {
+        display: none;
+    }
+
+    .container {
+        padding-left: 10.72%;
+        padding-right: 10.72%;
+    }
+}
+
+@media (max-width: 648px) {
+    .container {
+        padding-left: 5.72%;
+        padding-right: 5.72%;
+    }
+
+    .logo {
+        margin-bottom: 8%;
+    }
+}
+
+@media (max-width: 320px) {
+
+
+    .container {
+        padding-left: 4.72%;
+        padding-right: 4.72%;
+    }
+
+    .header-top {
+        flex-wrap: wrap;
+
+    }
+
+    .logo {
+        height: 28px;
+        margin-bottom: 0;
+    }
+
+    .logo a {
+        width: 125px;
+        height: 18px;
+    }
+
+    .logo h3 {
+        margin-left: 19px;
+        font-weight: 400;
+        font-size: 9.16px;
+        line-height: 14px;
+        max-width: 125px;
+    }
+
+    .header-btn {
+        order: 0;
+        margin-top: 2.15%;
+        min-width: 142px;
+        min-height: 32px;
+        max-width: 142px;
+        max-height: 32px;
+        padding: 0;
+        padding-top: 5px;
+
+    }
+
+    .header-btn a {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .header-phone {
+        height: 26px;
+        margin-top: 16px;
+        margin-left: 0;
+        margin-right: 26px;
+        margin-top: 8px;
+        width: 100px;
+    }
+
+    .number {
+        margin-left: 7px;
+        font-weight: 600;
+        font-size: 9.89076px;
+        line-height: 12px;
+    }
+
+    .header-phone__call a {
+        width: 106px;
+        height: 9px;
+    }
+
+    .header-phone__call-icon {
+        height: 8px;
+    }
+
+    .header-phone__call-icon img {
+        height: 100%;
+        width: 100%;
+        margin-bottom: 100%;
+    }
+
+    .header-phone__call-text {
+        width: 95px;
+        font-weight: 400;
+        font-size: 7.19328px;
+        line-height: 9px;
+    }
+
+    .header-title {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        width: 280px;
+    }
+
+    .header-text {
+        width: 270px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .header-btn_main {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        min-width: 270px;
+        min-height: 69px;
+        max-width: 270px;
+        max-height: 69px;
+        padding: 15.5px 31.5px;
+        margin-top: 230px;
+    }
+
+    .header {
+        background-size: contain;
+        background-position: right 45%;
+    }
+
+    .header-main {
+        padding-top: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        padding-left: 4.72%;
+        padding-right: 4.72%;
+    }
 }
